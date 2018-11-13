@@ -1,0 +1,11 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	background-color: linear-gradient(to top right, #0066ff 0%, #66ffff 100%);
+	font-family: Oswald, sans-serif;
+}
+
+
+p {
+	float: center;
+}
