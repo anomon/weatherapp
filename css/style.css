@@ -1,0 +1,42 @@
+body {
+  background-size: 100vw 100vh;
+  background-color: linear-gradient(to right lightgreen, lightblue);
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+.jumbotron .title {
+  font-family: "Oswald";
+  color: black;
+  padding-top: 40px;
+}
+
+.jumbotron .weather {
+  color: black;
+}
+
+
+h2 {
+  font-size: 30px;
+}
+
+
+h3 {
+  color: #FFFFFF;
+  margin: 6px;
+  font-size: 20px
+}
+
+#inputloc{
+  padding-top: 20px;
+}
+
+#poweredby{
+  float: right;
+}
