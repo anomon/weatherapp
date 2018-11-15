@@ -42,7 +42,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 function getURL(location, tempSetting) {
-  var url = ("https://api.darksky.net/forecast/d0008617a32ab7c3cae043cb95a96db9/" + location +"?units=si");
+  var url = ("https://api.darksky.net/forecast/[api_key]/" + location +"?units=si");
   //console.log(url);
   getJson(url);
 
